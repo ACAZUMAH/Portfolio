@@ -17,14 +17,19 @@
           <a href="./index.html">ACAZUMAH</a>
         </h1>
         <ul class="nav-links">
-          <li><a href="#">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#projects" class="a">Projects</a></li>
+          <li><a href="#skills" class="a">Skills</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
     </header>
-    <section id="showCase" class="show-Case">
+    <section id="showCase" class="show-Case section">
       <div class="showCase-content">
         <div class="intro-text">
           <h3>Hi, I'm Asakwin Caleb Azumah</h3>
@@ -36,7 +41,7 @@
           </p>
           <div class="hire-download">
             <div class="btn">
-              <a href="#">Hire me</a>
+              <a href="./contact.html">Hire me</a>
             </div>
             <div class="download-container">
               <a href="#">Download Resume </a>
@@ -55,11 +60,11 @@
           </div>
         </div>
         <div class="profile-image">
-          <img src="./Images/img2.jpg" alt="profile image" />
+          <img src="./Images/img1.jpg" alt="profile image" />
         </div>
       </div>
     </section>
-    <section id="projects" class="projects">
+    <section id="projects" class="projects section">
       <h2>My <span class="decorate">Projects</span></h2>
       <div>
         <div class="frontend-header">
@@ -93,9 +98,9 @@
             <img src="./Images/expense.png" />
             <h4>Expense Tracker</h4>
             <p>
-              This project is an expense tracker application designed to help
-              users manage their finances effectively. It allows users to add,
-              view, and filter expenses by year, providing a clear overview of
+              This project is an expense tracker application designed for users 
+              manage their finances effectively. It allows users to add,
+              view, and filter expenses, providing a clear overview of
               monthly spending patterns.
             </p>
             <a href="#" class="btn">View</a>
@@ -115,7 +120,7 @@
                   with mentors who offer guidance in academic or career paths. Mentors can easily
                   share advice and resources with their mentees and both can communicate through messaging.
                 </p>
-                <a href="#" class="btn">View</a>
+                <a href="https://github.com/ACAZUMAH/MentorMe-BackEnd.git" class="btn">View</a>
             </div>
             <div class="backend-card">
                 <h4>FindJobs</h4>
@@ -123,7 +128,7 @@
                     applications efficiently. It provides a secure environment for users to create, 
                     update, delete, and search for job entries, along with advanced authentication 
                     and OTP verification.</p>
-                <a href="#" class="btn">View</a>
+                <a href="https://github.com/ACAZUMAH/findJobs.git" class="btn">View</a>
             </div>
             <div class="backend-card">
                 <h4>Blog Platform</h4>
@@ -131,21 +136,61 @@
                     users can sign up, log in, create posts, like posts, comment on posts, 
                     update or delete their posts and comments, follow or unfollow other users, 
                     and like or unlike posts.</p>
-                <a href="#" class="btn">View</a>
+                <a href="https://github.com/ACAZUMAH/Blog-Back-End-Server.git" class="btn">View</a>
             </div>
             <div class="backend-card">
-                <h4>Auth-System API</h4>
-                <p>This project is an API that provides user authentication, role management, and profile 
+                <h4>Auth-System</h4>
+                <p>This project is an API that provides user authentication and authorization, role management, and profile 
                     handling functionalities, including Google OAuth integration, user 
-                    registration, and OTP-based verification
+                    registration, and OTP-based verification securelly.
                 </p>
-                <a href="#" class="btn">View</a>
+                <a href="https://github.com/ACAZUMAH/auth-system.git" class="btn">View</a>
             </div>
         </div>
       </div>
     </section>
-    <section>
-
+    <section class="section">
+      <div id="skills" class="skills">
+        <h2>My <span class="decorate">Skills</span></h2>
+        <div class="skills-grid">
+          <div class="skills-card">
+            <img src="./Images/js.png">
+            <h3>Javascript</h3>
+          </div>
+          <div class="skills-card">
+            <img src="./Images/html.png">
+            <h3>HTML</h3>
+          </div>
+          <div class="skills-card">
+            <img src="./Images/css.png" >
+            <h3>CSS</h3>
+          </div>
+          <div class="skills-card">
+            <img src="./Images/typescript.png">
+            <h3>TypeScript</h3>
+          </div>
+          <div class="skills-card">
+            <img src="./Images/react.png">
+            <h3>React</h3>
+          </div>
+          <div class="skills-card">
+            <img src="./Images/node.png">
+            <h3>NodeJs</h3>
+          </div>
+          <div class="skills-card">
+            <img src="./Images/exp.png">
+            <h3>ExpressJs</h3>
+          </div>
+          <div class="skills-card">
+            <img src="./Images/mongo.png">
+            <h3>MongoDB</h3>
+          </div>
+        </div>
+      </div>
     </section>
+    <footer id="main-footer" class="section">
+      <p>Caleb Azumah &copy; <span id="year"></span> All Rights Reserved</p>
+    </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
